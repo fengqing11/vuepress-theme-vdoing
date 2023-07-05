@@ -18,7 +18,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
   locales: {
     '/': {
       lang: 'zh-CN',
-      title: "Evan's blog",
+      title: "Tanzi's blog",
       description: 'web前端技术博客,专注web前端学习与总结。JavaScript,js,ES6,TypeScript,vue,React,python,css3,html5,Node,git,github等技术文章。',
     }
   },
@@ -29,84 +29,84 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     // 导航配置
     nav: [
       { text: '首页', link: '/' },
-      {
-        text: '前端',
-        link: '/web/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
-        items: [
-          // 说明：以下所有link的值只是在相应md文件头部定义的永久链接（不是什么特殊编码）。另外，注意结尾是有斜杠的
-          {
-            text: '前端文章',
-            items: [
-              { text: 'JavaScript', link: '/pages/8143cc480faf9a11/' },
-            ],
-          },
-          {
-            text: '学习笔记',
-            items: [
-              { text: '《JavaScript教程》', link: '/note/javascript/' },
-              { text: '《JavaScript高级程序设计》', link: '/note/js/' },
-              { text: '《ES6 教程》', link: '/note/es6/' },
-              { text: '《Vue》', link: '/note/vue/' },
-              { text: '《React》', link: '/note/react/' },
-              {
-                text: '《TypeScript 从零实现 axios》',
-                link: '/note/typescript-axios/',
-              },
-              {
-                text: '《Git》',
-                link: '/note/git/',
-              },
-              {
-                text: 'TypeScript',
-                link: '/pages/51afd6/',
-              },
-              {
-                text: 'JS设计模式总结',
-                link: '/pages/4643cd/',
-              },
-            ],
-          },
-        ],
-      },
-      {
-        text: '页面',
-        link: '/ui/',
-        items: [
-          { text: 'HTML', link: '/pages/8309a5b876fc95e3/' },
-          { text: 'CSS', link: '/pages/0a83b083bdf257cb/' },
-        ],
-      },
-      {
-        text: '技术',
-        link: '/technology/',
-        items: [
-          { text: '技术文档', link: '/pages/9a7ee40fc232253e/' },
-          { text: 'GitHub技巧', link: '/pages/4c778760be26d8b3/' },
-          { text: 'Nodejs', link: '/pages/117708e0af7f0bd9/' },
-          { text: '博客搭建', link: '/pages/41f87d890d0a02af/' },
-        ],
-      },
-      {
-        text: '更多',
-        link: '/more/',
-        items: [
-          { text: '学习', link: '/pages/f2a556/' },
-          { text: '面试', link: '/pages/aea6571b7a8bae86/' },
-          { text: '心情杂货', link: '/pages/2d615df9a36a98ed/' },
-          { text: '实用技巧', link: '/pages/baaa02/' },
-          { text: '友情链接', link: '/friends/' },
-        ],
-      },
-      { text: '关于', link: '/about/' },
-      {
-        text: '收藏',
-        link: '/pages/beb6c0bd8a66cea6/',
-        // items: [
-        //   { text: '网站', link: '/pages/beb6c0bd8a66cea6/' },
-        //   { text: '资源', link: '/pages/eee83a9211a70f9d/' },
-        //   { text: 'Vue资源', link: '/pages/12df8ace52d493f6/' },
-        // ],
-      },
+      // {
+      //   text: '前端',
+      //   link: '/web/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
+      //   items: [
+      //     // 说明：以下所有link的值只是在相应md文件头部定义的永久链接（不是什么特殊编码）。另外，注意结尾是有斜杠的
+      //     {
+      //       text: '前端文章',
+      //       items: [
+      //         { text: 'JavaScript', link: '/pages/8143cc480faf9a11/' },
+      //       ],
+      //     },
+      //     {
+      //       text: '学习笔记',
+      //       items: [
+      //         { text: '《JavaScript教程》', link: '/note/javascript/' },
+      //         { text: '《JavaScript高级程序设计》', link: '/note/js/' },
+      //         { text: '《ES6 教程》', link: '/note/es6/' },
+      //         { text: '《Vue》', link: '/note/vue/' },
+      //         { text: '《React》', link: '/note/react/' },
+      //         {
+      //           text: '《TypeScript 从零实现 axios》',
+      //           link: '/note/typescript-axios/',
+      //         },
+      //         {
+      //           text: '《Git》',
+      //           link: '/note/git/',
+      //         },
+      //         {
+      //           text: 'TypeScript',
+      //           link: '/pages/51afd6/',
+      //         },
+      //         {
+      //           text: 'JS设计模式总结',
+      //           link: '/pages/4643cd/',
+      //         },
+      //       ],
+      //     },
+      //   ],
+      // },
+      // {
+      //   text: '页面',
+      //   link: '/ui/',
+      //   items: [
+      //     { text: 'HTML', link: '/pages/8309a5b876fc95e3/' },
+      //     { text: 'CSS', link: '/pages/0a83b083bdf257cb/' },
+      //   ],
+      // },
+      // {
+      //   text: '技术',
+      //   link: '/technology/',
+      //   items: [
+      //     { text: '技术文档', link: '/pages/9a7ee40fc232253e/' },
+      //     { text: 'GitHub技巧', link: '/pages/4c778760be26d8b3/' },
+      //     { text: 'Nodejs', link: '/pages/117708e0af7f0bd9/' },
+      //     { text: '博客搭建', link: '/pages/41f87d890d0a02af/' },
+      //   ],
+      // },
+      // {
+      //   text: '更多',
+      //   link: '/more/',
+      //   items: [
+      //     { text: '学习', link: '/pages/f2a556/' },
+      //     { text: '面试', link: '/pages/aea6571b7a8bae86/' },
+      //     { text: '心情杂货', link: '/pages/2d615df9a36a98ed/' },
+      //     { text: '实用技巧', link: '/pages/baaa02/' },
+      //     { text: '友情链接', link: '/friends/' },
+      //   ],
+      // },
+      // { text: '关于', link: '/about/' },
+      // {
+      //   text: '收藏',
+      //   link: '/pages/beb6c0bd8a66cea6/',
+      //   // items: [
+      //   //   { text: '网站', link: '/pages/beb6c0bd8a66cea6/' },
+      //   //   { text: '资源', link: '/pages/eee83a9211a70f9d/' },
+      //   //   { text: 'Vue资源', link: '/pages/12df8ace52d493f6/' },
+      //   // ],
+      // },
       {
         text: '索引',
         link: '/archives/',
@@ -173,8 +173,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     // 博主信息 (显示在首页侧边栏)
     blogger: {
       avatar: 'https://fastly.jsdelivr.net/gh/xugaoyi/image_store/blog/20200103123203.jpg',
-      name: 'Evan Xu',
-      slogan: '前端界的小学生',
+      name: 'Tanzi',
+      slogan: '',
     },
 
     // 社交图标 (显示于博主信息栏和页脚栏。内置图标：https://doc.xugaoyi.com/pages/a20ce8/#social)
@@ -184,12 +184,12 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         {
           iconClass: 'icon-youjian',
           title: '发邮件',
-          link: 'mailto:894072666@qq.com',
+          link: 'mailto:572873201@qq.com',
         },
         {
           iconClass: 'icon-github',
           title: 'GitHub',
-          link: 'https://github.com/xugaoyi',
+          link: 'https://github.com/fengqing11',
         },
         {
           iconClass: 'icon-erji',
@@ -201,7 +201,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     // 页脚信息
     footer: {
-      createYear: 2019, // 博客创建年份
+      createYear: 2023, // 博客创建年份
       copyrightInfo:
         'Evan Xu | <a href="https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息、备案信息等，支持a标签或换行标签</br>
     },
